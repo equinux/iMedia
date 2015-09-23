@@ -4,7 +4,7 @@
 	fetchRecurseSubmodules = true
 [submodule "XPCKit"]
 	path = XPCKit
-	url = git://github.com/equinux/XPCKit.git
+	url = https://github.com/equinux/XPCKit.git
 	fetchRecurseSubmodules = true
 [submodule "PhFacebook"]
 	path = PhFacebook
