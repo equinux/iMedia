@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1126A0381EB21D670047F6FD /* IMBTargetDebug App Store.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1126A0361EB21D670047F6FD /* IMBTargetDebug App Store.xcconfig */; };
+		1126A0391EB21D670047F6FD /* IMBTargetRelease App Store.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1126A0371EB21D670047F6FD /* IMBTargetRelease App Store.xcconfig */; };
 		274DF618114EF0B200AC8C03 /* IMBImageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 274DF616114EF0B200AC8C03 /* IMBImageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3000ADEC1612F6DA00EDC78E /* IMBTableViewAppearance+iMediaPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3000ADEA1612F6DA00EDC78E /* IMBTableViewAppearance+iMediaPrivate.h */; };
 		3000ADF916159C2300EDC78E /* NSCell+iMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 3000ADF716159C2300EDC78E /* NSCell+iMedia.h */; };
@@ -46,7 +48,6 @@
 		3010BE3B16A85CD600798D2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D02CD4CB1224F78E00C773A2 /* Localizable.strings */; };
 		3010BE3C16A85CDD00798D2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D02CD4CB1224F78E00C773A2 /* Localizable.strings */; };
 		3010BE3D16A85CEC00798D2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D02CD4CB1224F78E00C773A2 /* Localizable.strings */; };
-		3010BE3E16A85CFD00798D2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D02CD4CB1224F78E00C773A2 /* Localizable.strings */; };
 		3010BE4416A85D2600798D2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D02CD4CB1224F78E00C773A2 /* Localizable.strings */; };
 		3016792913B225B9000E57D2 /* badge_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3016792813B225B9000E57D2 /* badge_checkbox.png */; };
 		3016792A13B225B9000E57D2 /* badge_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3016792813B225B9000E57D2 /* badge_checkbox.png */; };
@@ -80,7 +81,6 @@
 		30421DF216A995CF00311AC4 /* SandboxingKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30421DE616A9943400311AC4 /* SandboxingKit.strings */; };
 		30421DF316A995D800311AC4 /* SandboxingKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30421DE616A9943400311AC4 /* SandboxingKit.strings */; };
 		30421DF416A995E100311AC4 /* SandboxingKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30421DE616A9943400311AC4 /* SandboxingKit.strings */; };
-		30421DF516A995E900311AC4 /* SandboxingKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30421DE616A9943400311AC4 /* SandboxingKit.strings */; };
 		30421DFB16A9960900311AC4 /* SandboxingKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30421DE616A9943400311AC4 /* SandboxingKit.strings */; };
 		3043924B130D1DDC00DD1D34 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09930FC1010FF9700C527B7 /* Quartz.framework */; };
 		305B64C71372EF6C009B53BD /* cork-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE394AC11371A1F700EF0D1E /* cork-background.jpg */; };
@@ -242,10 +242,6 @@
 		D05D39B5152ACD2400E30C43 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09930FC1010FF9700C527B7 /* Quartz.framework */; };
 		D05D39B6152ACD2400E30C43 /* iMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* iMedia.framework */; };
 		D05D39B7152ACD2400E30C43 /* XPCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3089F94A151C8FDD00D56DC0 /* XPCKit.framework */; };
-		D05D39C1152ACD3300E30C43 /* SBServiceMain.m in Sources */ = {isa = PBXBuildFile; fileRef = D08109A7151A052300201850 /* SBServiceMain.m */; };
-		D05D39C6152ACD3300E30C43 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09930FC1010FF9700C527B7 /* Quartz.framework */; };
-		D05D39C7152ACD3300E30C43 /* iMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* iMedia.framework */; };
-		D05D39C8152ACD3300E30C43 /* XPCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3089F94A151C8FDD00D56DC0 /* XPCKit.framework */; };
 		D05D39F9152ACD8800E30C43 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09930FC1010FF9700C527B7 /* Quartz.framework */; };
 		D05D39FA152ACD8800E30C43 /* iMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* iMedia.framework */; };
 		D05D39FB152ACD8800E30C43 /* XPCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3089F94A151C8FDD00D56DC0 /* XPCKit.framework */; };
@@ -299,9 +295,7 @@
 		D0904DA8152CA51F003FDD08 /* IMBFileSystemObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = D0904DA6152CA51F003FDD08 /* IMBFileSystemObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0904DA9152CA51F003FDD08 /* IMBFileSystemObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D0904DA7152CA51F003FDD08 /* IMBFileSystemObserver.m */; };
 		D0904DAC152CAA4A003FDD08 /* im.edia.Lightroom.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = D05D39BD152ACD2400E30C43 /* im.edia.Lightroom.xpc */; };
-		D0904DAD152CAA4A003FDD08 /* im.edia.Flickr.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = D05D39CE152ACD3300E30C43 /* im.edia.Flickr.xpc */; };
 		D0904DB0152CAA4A003FDD08 /* im.edia.FSEvents.xpc in Copy XPCServices */ = {isa = PBXBuildFile; fileRef = D05D3A01152ACD8800E30C43 /* im.edia.FSEvents.xpc */; };
-		D0904DD8152D6F57003FDD08 /* ObjectiveFlickr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C911C71521038F006655C9 /* ObjectiveFlickr.framework */; };
 		D0904DD9152D6F79003FDD08 /* XPCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3089F94A151C8FDD00D56DC0 /* XPCKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D0904DDA152D6FBD003FDD08 /* XPCKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3089F94A151C8FDD00D56DC0 /* XPCKit.framework */; };
 		D0904DDB152D6FC4003FDD08 /* ObjectiveFlickr.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C911C71521038F006655C9 /* ObjectiveFlickr.framework */; };
@@ -310,7 +304,6 @@
 		D0904DE9152D717E003FDD08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FFEBEE150A08DB0009C1D0 /* Foundation.framework */; };
 		D0904DEA152D717F003FDD08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FFEBEE150A08DB0009C1D0 /* Foundation.framework */; };
 		D0904DEB152D717F003FDD08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FFEBEE150A08DB0009C1D0 /* Foundation.framework */; };
-		D0904DEC152D7180003FDD08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FFEBEE150A08DB0009C1D0 /* Foundation.framework */; };
 		D0904DF2152D7183003FDD08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FFEBEE150A08DB0009C1D0 /* Foundation.framework */; };
 		D0904DF6152D7478003FDD08 /* IMBSafariParserMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0904DF4152D7478003FDD08 /* IMBSafariParserMessenger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0904DF7152D7478003FDD08 /* IMBSafariParserMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = D0904DF5152D7478003FDD08 /* IMBSafariParserMessenger.m */; };
@@ -500,6 +493,7 @@
 		D0FDC6541668ACC000181E15 /* iTunes11-icon-21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FDC6141668ACA300181E15 /* iTunes11-icon-21@2x.png */; };
 		D0FDC6651668ACC000181E15 /* iTunes11-icon-30.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FDC6251668ACB900181E15 /* iTunes11-icon-30.png */; };
 		D0FDC6661668ACC000181E15 /* iTunes11-icon-30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FDC6261668ACBA00181E15 /* iTunes11-icon-30@2x.png */; };
+		ED4CB5FE63A31A12935F28EC /* Pods_iMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA67A1EF707632732C25016E /* Pods_iMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -520,7 +514,6 @@
 			dstSubfolderSpec = 1;
 			files = (
 				D0904DAC152CAA4A003FDD08 /* im.edia.Lightroom.xpc in Copy XPCServices */,
-				D0904DAD152CAA4A003FDD08 /* im.edia.Flickr.xpc in Copy XPCServices */,
 				D0904DB0152CAA4A003FDD08 /* im.edia.FSEvents.xpc in Copy XPCServices */,
 				D0680C3C1518CCCE00CED506 /* im.edia.Folder.xpc in Copy XPCServices */,
 				30FFEBFE150A0AA70009C1D0 /* im.edia.iPhoto.xpc in Copy XPCServices */,
@@ -547,6 +540,8 @@
 
 /* Begin PBXFileReference section */
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1126A0361EB21D670047F6FD /* IMBTargetDebug App Store.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "IMBTargetDebug App Store.xcconfig"; sourceTree = "<group>"; };
+		1126A0371EB21D670047F6FD /* IMBTargetRelease App Store.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "IMBTargetRelease App Store.xcconfig"; sourceTree = "<group>"; };
 		274DF616114EF0B200AC8C03 /* IMBImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBImageItem.h; sourceTree = "<group>"; };
 		274DF617114EF0B200AC8C03 /* IMBImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBImageItem.m; sourceTree = "<group>"; };
 		3000ADEA1612F6DA00EDC78E /* IMBTableViewAppearance+iMediaPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMBTableViewAppearance+iMediaPrivate.h"; sourceTree = "<group>"; };
@@ -703,6 +698,7 @@
 		8FDAB508176D033700AD507B /* IMBLightroomRuleScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBLightroomRuleScanner.m; sourceTree = "<group>"; };
 		8FFCBFCE10A8CD9C00377C33 /* IMBLightroom3Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBLightroom3Parser.h; sourceTree = "<group>"; };
 		8FFCBFCF10A8CD9C00377C33 /* IMBLightroom3Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBLightroom3Parser.m; sourceTree = "<group>"; };
+		BA67A1EF707632732C25016E /* Pods_iMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE09F301124823020094EC48 /* IMBURLGetSizeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBURLGetSizeOperation.h; sourceTree = "<group>"; };
 		CE09F302124823020094EC48 /* IMBURLGetSizeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBURLGetSizeOperation.m; sourceTree = "<group>"; };
 		CE0E0C80104C72A200EE6B09 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
@@ -803,7 +799,6 @@
 		D054AFED152984ED00EBFA1C /* im.edia.GarageBand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = im.edia.GarageBand.entitlements; sourceTree = "<group>"; };
 		D05D39AC152ACD1300E30C43 /* im.edia.Aperture.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = im.edia.Aperture.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D39BD152ACD2400E30C43 /* im.edia.Lightroom.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = im.edia.Lightroom.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
-		D05D39CE152ACD3300E30C43 /* im.edia.Flickr.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = im.edia.Flickr.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D3A01152ACD8800E30C43 /* im.edia.FSEvents.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = im.edia.FSEvents.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D3A15152AD27300E30C43 /* im.edia.Aperture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = im.edia.Aperture.entitlements; sourceTree = "<group>"; };
 		D05D3A16152AD28400E30C43 /* im.edia.Lightroom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = im.edia.Lightroom.entitlements; sourceTree = "<group>"; };
@@ -1099,6 +1094,7 @@
 				D0904DDC152D700E003FDD08 /* Security.framework in Frameworks */,
 				D0904DD9152D6F79003FDD08 /* XPCKit.framework in Frameworks */,
 				D0F2DBCF1098270F004280C1 /* libsqlite3.dylib in Frameworks */,
+				ED4CB5FE63A31A12935F28EC /* Pods_iMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1121,18 +1117,6 @@
 				D05D39B5152ACD2400E30C43 /* Quartz.framework in Frameworks */,
 				D05D39B6152ACD2400E30C43 /* iMedia.framework in Frameworks */,
 				D05D39B7152ACD2400E30C43 /* XPCKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D05D39C2152ACD3300E30C43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0904DEC152D7180003FDD08 /* Foundation.framework in Frameworks */,
-				D05D39C6152ACD3300E30C43 /* Quartz.framework in Frameworks */,
-				D05D39C7152ACD3300E30C43 /* iMedia.framework in Frameworks */,
-				D05D39C8152ACD3300E30C43 /* XPCKit.framework in Frameworks */,
-				D0904DD8152D6F57003FDD08 /* ObjectiveFlickr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1180,7 +1164,6 @@
 				D0E96D021518C9BF004F3EE7 /* im.edia.Folder.xpc */,
 				D05D39AC152ACD1300E30C43 /* im.edia.Aperture.xpc */,
 				D05D39BD152ACD2400E30C43 /* im.edia.Lightroom.xpc */,
-				D05D39CE152ACD3300E30C43 /* im.edia.Flickr.xpc */,
 				D05D3A01152ACD8800E30C43 /* im.edia.FSEvents.xpc */,
 				307F9691183D090D004F87E0 /* iMedia Tests.xctest */,
 			);
@@ -1192,7 +1175,9 @@
 			children = (
 				D0760AC210C5027100F2119C /* IMBProject.xcconfig */,
 				D0CF005310C50908009EC68F /* IMBTargetDebug.xcconfig */,
+				1126A0361EB21D670047F6FD /* IMBTargetDebug App Store.xcconfig */,
 				D0CF005410C50908009EC68F /* IMBTargetRelease.xcconfig */,
+				1126A0371EB21D670047F6FD /* IMBTargetRelease App Store.xcconfig */,
 				D0CF005510C50908009EC68F /* IMBTargetTest.xcconfig */,
 				32DBCF5E0370ADEE00C91783 /* iMedia.pch */,
 				08FB77AEFE84172EC02AAC07 /* iMedia Framework */,
@@ -1202,6 +1187,7 @@
 				307F9695183D090D004F87E0 /* iMedia Tests */,
 				307F9692183D090D004F87E0 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				C11C7409DF88285637A310D8 /* Pods */,
 			);
 			name = iMedia;
 			sourceTree = "<group>";
@@ -1287,6 +1273,7 @@
 			children = (
 				30DA32441A92142C0039B07C /* MediaLibrary.framework */,
 				307F9693183D090D004F87E0 /* XCTest.framework */,
+				BA67A1EF707632732C25016E /* Pods_iMedia.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1377,6 +1364,13 @@
 				D05D3A15152AD27300E30C43 /* im.edia.Aperture.entitlements */,
 			);
 			name = Aperture;
+			sourceTree = "<group>";
+		};
+		C11C7409DF88285637A310D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CEAF1F13125A7D8C001C3EBB /* Resources */ = {
@@ -2221,10 +2215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "iMedia" */;
 			buildPhases = (
+				7E3B79406E84CA66B89F6066 /* [CP] Check Pods Manifest.lock */,
 				8DC2EF500486A6940098B216 /* Headers */,
 				8DC2EF520486A6940098B216 /* Resources */,
 				8DC2EF540486A6940098B216 /* Sources */,
 				8DC2EF560486A6940098B216 /* Frameworks */,
+				3FF41A64A08B6541C5C5BE65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2268,23 +2264,6 @@
 			name = im.edia.Lightroom;
 			productName = "iPhoto Parser XPC Service";
 			productReference = D05D39BD152ACD2400E30C43 /* im.edia.Lightroom.xpc */;
-			productType = "com.apple.product-type.bundle";
-		};
-		D05D39BF152ACD3300E30C43 /* im.edia.Flickr */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D05D39CB152ACD3300E30C43 /* Build configuration list for PBXNativeTarget "im.edia.Flickr" */;
-			buildPhases = (
-				D05D39C0152ACD3300E30C43 /* Sources */,
-				D05D39C2152ACD3300E30C43 /* Frameworks */,
-				D05D39C9152ACD3300E30C43 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = im.edia.Flickr;
-			productName = "iPhoto Parser XPC Service";
-			productReference = D05D39CE152ACD3300E30C43 /* im.edia.Flickr.xpc */;
 			productType = "com.apple.product-type.bundle";
 		};
 		D05D39F2152ACD8800E30C43 /* im.edia.FSEvents */ = {
@@ -2367,10 +2346,6 @@
 						DevelopmentTeam = CPXNXN488S;
 						ProvisioningStyle = Automatic;
 					};
-					D05D39BF152ACD3300E30C43 = {
-						DevelopmentTeam = CPXNXN488S;
-						ProvisioningStyle = Automatic;
-					};
 					D05D39F2152ACD8800E30C43 = {
 						DevelopmentTeam = CPXNXN488S;
 						ProvisioningStyle = Automatic;
@@ -2423,7 +2398,6 @@
 				30FFEBEB150A08DB0009C1D0 /* im.edia.iPhoto */,
 				D05D399D152ACD1300E30C43 /* im.edia.Aperture */,
 				D05D39AE152ACD2400E30C43 /* im.edia.Lightroom */,
-				D05D39BF152ACD3300E30C43 /* im.edia.Flickr */,
 				D05D39F2152ACD8800E30C43 /* im.edia.FSEvents */,
 				D02CD49E1224F22400C773A2 /* genstrings */,
 				307F9690183D090D004F87E0 /* iMedia Tests */,
@@ -2517,6 +2491,7 @@
 				CEAF1FE5125A8B6A001C3EBB /* Credits.html in Resources */,
 				CE1AED33129C475200694472 /* js.tiff in Resources */,
 				CEF7A22412B1B71800DBE412 /* url_icon.tiff in Resources */,
+				1126A0391EB21D670047F6FD /* IMBTargetRelease App Store.xcconfig in Resources */,
 				CE394AC21371A1F700EF0D1E /* cork-background.jpg in Resources */,
 				3016792A13B225B9000E57D2 /* badge_checkbox.png in Resources */,
 				D024A32015319CB4005B6C0A /* IMBAlertPopoverViewController.xib in Resources */,
@@ -2549,6 +2524,7 @@
 				309BA06917F0219500866E64 /* album_512x512.png in Resources */,
 				D0FDC6661668ACC000181E15 /* iTunes11-icon-30@2x.png in Resources */,
 				30421DE416A9943400311AC4 /* SandboxingKit.strings in Resources */,
+				1126A0381EB21D670047F6FD /* IMBTargetDebug App Store.xcconfig in Resources */,
 				309BA06A17F0219500866E64 /* person_512x512.png in Resources */,
 				30ED4E03175E140F0096376D /* album@2x.png in Resources */,
 				30ED4E04175E140F0096376D /* album_sel.png in Resources */,
@@ -2581,15 +2557,6 @@
 			files = (
 				3010BE3D16A85CEC00798D2E /* Localizable.strings in Resources */,
 				30421DF416A995E100311AC4 /* SandboxingKit.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D05D39C9152ACD3300E30C43 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30421DF516A995E900311AC4 /* SandboxingKit.strings in Resources */,
-				3010BE3E16A85CFD00798D2E /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2626,6 +2593,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3FF41A64A08B6541C5C5BE65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-iMedia/Pods-iMedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E3B79406E84CA66B89F6066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		D02CD49D1224F22400C773A2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2834,14 +2831,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D05D39C0152ACD3300E30C43 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05D39C1152ACD3300E30C43 /* SBServiceMain.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D05D39F3152ACD8800E30C43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2967,7 +2956,7 @@
 		};
 		113D20831BB2B9FA0047F155 /* Debug App Store */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0CF005310C50908009EC68F /* IMBTargetDebug.xcconfig */;
+			baseConfigurationReference = 1126A0361EB21D670047F6FD /* IMBTargetDebug App Store.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -2987,7 +2976,7 @@
 		};
 		113D20841BB2B9FA0047F155 /* Debug App Store */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0CF005310C50908009EC68F /* IMBTargetDebug.xcconfig */;
+			baseConfigurationReference = 1126A0361EB21D670047F6FD /* IMBTargetDebug App Store.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TestApp/iMediaTester.entitlements;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -3016,7 +3005,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3051,7 +3043,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3085,7 +3080,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3119,41 +3117,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
-				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xpc;
-			};
-			name = "Debug App Store";
-		};
-		113D20891BB2B9FA0047F155 /* Debug App Store */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_ENTITLEMENTS = "$(TARGET_NAME).entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3187,7 +3154,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3284,7 +3254,7 @@
 		};
 		113D20941BB2BA060047F155 /* Release App Store */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0CF005410C50908009EC68F /* IMBTargetRelease.xcconfig */;
+			baseConfigurationReference = 1126A0371EB21D670047F6FD /* IMBTargetRelease App Store.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -3303,7 +3273,7 @@
 		};
 		113D20951BB2BA060047F155 /* Release App Store */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0CF005410C50908009EC68F /* IMBTargetRelease.xcconfig */;
+			baseConfigurationReference = 1126A0371EB21D670047F6FD /* IMBTargetRelease App Store.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TestApp/iMediaTester.entitlements;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -3333,7 +3303,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3362,7 +3335,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3390,7 +3366,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3418,35 +3397,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
-				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xpc;
-			};
-			name = "Release App Store";
-		};
-		113D209A1BB2BA060047F155 /* Release App Store */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_ENTITLEMENTS = "$(TARGET_NAME).entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3474,7 +3428,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3696,7 +3653,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3731,7 +3691,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3778,7 +3741,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3813,7 +3779,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3840,7 +3809,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3875,69 +3847,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
-				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xpc;
-			};
-			name = Release;
-		};
-		D05D39CC152ACD3300E30C43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_ENTITLEMENTS = "$(TARGET_NAME).entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
-				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xpc;
-			};
-			name = Debug;
-		};
-		D05D39CD152ACD3300E30C43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_ENTITLEMENTS = "$(TARGET_NAME).entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3964,7 +3877,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3999,7 +3915,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -4070,7 +3989,10 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -4106,7 +4028,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CPXNXN488S;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/XPCKit",
+					"$(inherited)",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -4201,17 +4126,6 @@
 				113D20881BB2B9FA0047F155 /* Debug App Store */,
 				D05D39BC152ACD2400E30C43 /* Release */,
 				113D20991BB2BA060047F155 /* Release App Store */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D05D39CB152ACD3300E30C43 /* Build configuration list for PBXNativeTarget "im.edia.Flickr" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D05D39CC152ACD3300E30C43 /* Debug */,
-				113D20891BB2B9FA0047F155 /* Debug App Store */,
-				D05D39CD152ACD3300E30C43 /* Release */,
-				113D209A1BB2BA060047F155 /* Release App Store */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
