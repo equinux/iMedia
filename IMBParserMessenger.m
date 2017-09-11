@@ -193,7 +193,7 @@
 
 + (NSString*) xpcServiceIdentifierPrefix
 {
-	return @"im.edia.";
+	return @"net.tower-one.im.edia.";
 }
 
 

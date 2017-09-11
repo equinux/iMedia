@@ -127,7 +127,7 @@ NSString* kIMBPathDidChangeNotification = @"IMBPathDidChange";
 	{
 		_notificationDelay = 2.0;
 		
-		if ([[NSBundle mainBundle] supportsXPCServiceWithIdentifier:@"im.edia.FSEvents"])
+		if ([[NSBundle mainBundle] supportsXPCServiceWithIdentifier:@"net.tower-one.im.edia.FSEvents"])
 		{
 			[self _setupXPCService];
 		}
@@ -166,7 +166,7 @@ NSString* kIMBPathDidChangeNotification = @"IMBPathDidChange";
 {
 	// Launch the FSEvents XPC service and establish a connection to it...
 	
-	_connection = [[XPCConnection alloc] initWithServiceName:@"im.edia.FSEvents"];
+	_connection = [[XPCConnection alloc] initWithServiceName:@"net.tower-one.im.edia.FSEvents"];
 	
 	// Install a global event handler to receive replies. For each pathDidChange reply we'll get,  
 	// we will send out a notification on the main thread that any interested parties (probably 

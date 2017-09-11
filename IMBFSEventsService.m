@@ -102,7 +102,7 @@ int main(int argc,const char *argv[])
 {
     NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
 	
-	sDispatchQueue = dispatch_queue_create("im.edia.FSEvents",DISPATCH_QUEUE_SERIAL);
+	sDispatchQueue = dispatch_queue_create("net.tower-one.im.edia.FSEvents",DISPATCH_QUEUE_SERIAL);
 	IMBFSEventsWatcherDelegate* delegate = [[IMBFSEventsWatcherDelegate alloc] init];
 	[[IMBFSEventsWatcher sharedFileWatcher] setDelegate:(id)delegate];
 	[[IMBFSEventsWatcher sharedFileWatcher] setDispatchQueue:sDispatchQueue];
