@@ -98,35 +98,26 @@
 // see http://developer.apple.com/documentation/Cocoa/Conceptual/LowLevelFileMgmt/Tasks/ResolvingAliases.html
 - (NSString *)imb_pathResolved:(NSString *)path
 {
-	NSString *resolvedPath = NULL;
-	
-	CFURLRef url = CFURLCreateWithFileSystemPath(NULL /*allocator*/, (CFStringRef)path, kCFURLPOSIXPathStyle, NO /*isDirectory*/);
-	if (url != NULL)
-	{
-		FSRef fsRef;
-		if (CFURLGetFSRef(url, &fsRef))
-		{
-			Boolean targetIsFolder, wasAliased;
-			if (FSResolveAliasFile (&fsRef, true /*resolveAliasChains*/, 
-									&targetIsFolder, &wasAliased) == noErr && wasAliased)
-			{
-				CFURLRef resolvedUrl = CFURLCreateFromFSRef(NULL, &fsRef);
-				if (resolvedUrl != NULL)
-				{
-					CFStringRef cfstr = CFURLCopyFileSystemPath(resolvedUrl,
-																kCFURLPOSIXPathStyle);
-					CFRelease(resolvedUrl);
-					resolvedPath = [NSMakeCollectable(cfstr) autorelease];
-				}
-			}
-		}
-		CFRelease(url);
-	}
-	
-	if ( resolvedPath == NULL )
-		resolvedPath = [[path copy] autorelease];
-	
-	return resolvedPath;
+    NSURL* url = [NSURL fileURLWithPath:path];
+    NSURL* resolved = nil;
+    if ( @available(macOS 10.10, *) ) {
+        resolved = [NSURL URLByResolvingAliasFileAtURL:url
+                                               options:NSURLBookmarkResolutionWithoutUI
+                                                 error:nil];
+    } else {
+        NSData* bookmark = [NSURL bookmarkDataWithContentsOfURL:url error:nil];
+        resolved = [NSURL URLByResolvingBookmarkData:bookmark
+                                             options:NSURLBookmarkResolutionWithoutUI
+                                       relativeToURL:url
+                                 bookmarkDataIsStale:NULL
+                                               error:nil];
+    }
+    
+    if (resolved) {
+        return [resolved path];
+    }
+    
+    return [[path copy] autorelease];
 }
 
 // Return (creating if necessary) a path to the shared iMedia temporary directory.

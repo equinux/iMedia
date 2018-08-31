@@ -274,16 +274,16 @@ NSString* const kIMBiPhotoNodeObjectTypeFace  = @"faces";
 					NSData *data = [NSData dataWithContentsOfFile:path];
 					if (data)
 					{
-						NSString *eString = nil;
 						NSError *e = nil;
 						@try
 						{
 							NSXMLDocument *xmlDoc = [[NSXMLDocument alloc] initWithData:data
 																				options:NSXMLDocumentTidyXML error:&e];
-							dict = [NSPropertyListSerialization
-									propertyListFromData:[xmlDoc XMLData]
-									mutabilityOption:0					// Apple doc: The opt parameter is currently unused and should be set to 0.
-									format:NULL errorDescription:&eString];
+                            dict = [NSPropertyListSerialization
+                                    propertyListWithData:[xmlDoc XMLData]
+                                    options:0
+                                    format:nil
+                                    error:&e];
 							[xmlDoc release];
 							
 							// the assignment to 'dict' in the code above yields

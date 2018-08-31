@@ -67,7 +67,7 @@
 
 - (BOOL)wantsThumbnails;
 
-@property(assign) id <IMBDynamicTableViewDelegate> delegate;
+@property(weak) id <NSTableViewDelegate, IMBDynamicTableViewDelegate> delegate;
 
 @end
 

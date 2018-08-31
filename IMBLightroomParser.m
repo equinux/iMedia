@@ -1367,7 +1367,7 @@ static NSArray* sSupportedUTIs = nil;
 					double dataOffset = [results doubleForColumn:@"dataOffset"];
 					double dataLength = [results doubleForColumn:@"dataLength"];
 					
-					NSData* data = [NSData dataWithContentsOfMappedFile:absolutePyramidPath];
+                    NSData* data = [NSData dataWithContentsOfFile:absolutePyramidPath options:NSDataReadingMappedIfSafe error:nil];
 					
 					jpegData = [data subdataWithRange:NSMakeRange(dataOffset, dataLength)];
 				}

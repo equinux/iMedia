@@ -390,14 +390,13 @@ typedef void (^IMBOpenPanelCompletionHandler)(NSURL* inURL);
 		}
 		else
 		{
-			NSAlert* alert = [NSAlert
-				alertWithMessageText:title
-				defaultButton:ok
-				alternateButton:nil
-				otherButton:nil
-				informativeTextWithFormat:@"%@",message];
+            NSAlert* alert = [[NSAlert alloc] init];
+            alert.messageText = title;
+            alert.informativeText = message;
+            [alert addButtonWithTitle:ok];
 				
 			[alert runModal];
+            [alert release];
 		}
 	}
 	
@@ -456,16 +455,15 @@ typedef void (^IMBOpenPanelCompletionHandler)(NSURL* inURL);
 		}
 		else
 		{
-			NSAlert* alert = [NSAlert
-				alertWithMessageText:title
-				defaultButton:ok
-				alternateButton:nil
-				otherButton:nil
-				informativeTextWithFormat:@"%@",message];
+            NSAlert* alert = [[NSAlert alloc] init];
+            alert.messageText = title;
+            alert.informativeText = message;
+            [alert addButtonWithTitle:ok];
 				
-			NSInteger button = [alert runModal];
+			NSModalResponse button = [alert runModal];
+            [alert release];
 			
-			if (button == NSOKButton)
+            if (button == NSModalResponseOK)
 			{
 				[[IMBLibraryController sharedLibraryControllerWithMediaType:inNode.mediaType] reload];
 			}
@@ -537,14 +535,13 @@ typedef void (^IMBOpenPanelCompletionHandler)(NSURL* inURL);
 		}
 		else
 		{
-			NSAlert* alert = [NSAlert
-				alertWithMessageText:title
-				defaultButton:ok
-				alternateButton:nil
-				otherButton:nil
-				informativeTextWithFormat:@"%@",message];
+            NSAlert* alert = [[NSAlert alloc] init];
+            alert.messageText = title;
+            alert.informativeText = message;
+            [alert addButtonWithTitle:ok];
 				
 			[alert runModal];
+            [alert release];
 		}
 	}
 
@@ -603,16 +600,15 @@ typedef void (^IMBOpenPanelCompletionHandler)(NSURL* inURL);
 		}
 		else
 		{
-			NSAlert* alert = [NSAlert
-				alertWithMessageText:title
-				defaultButton:ok
-				alternateButton:nil
-				otherButton:nil
-				informativeTextWithFormat:@"%@",message];
+            NSAlert* alert = [[NSAlert alloc] init];
+            alert.messageText = title;
+            alert.informativeText = message;
+            [alert addButtonWithTitle:ok];
 				
-			NSInteger button = [alert runModal];
+			NSModalResponse button = [alert runModal];
+            [alert release];
 			
-			if (button == NSOKButton)
+            if (button == NSModalResponseOK)
 			{
 				[[IMBLibraryController sharedLibraryControllerWithMediaType:inObject.mediaType] reload];
 			}

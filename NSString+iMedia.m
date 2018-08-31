@@ -64,30 +64,24 @@
 + (NSString *)imb_UTIForFileAtPath:(NSString *)anAbsolutePath
 {
 	NSString *result = nil;
-	FSRef fileRef;
-	Boolean isDirectory;
 	
 	if (anAbsolutePath == nil)
 	{
 		return nil;
 	}
-	
-	if (FSPathMakeRef((const UInt8 *)[anAbsolutePath fileSystemRepresentation], &fileRef, &isDirectory) == noErr)
-	{
-		// get the content type (UTI) of this file
-		CFStringRef uti = NULL;
-		if (LSCopyItemAttribute(&fileRef, kLSRolesViewer, kLSItemContentType, (CFTypeRef*)&uti)==noErr)
-		{
-			//			result = [[((NSString *)uti) retain] autorelease];	// I want an autoreleased copy of this.
-			
-			if (uti)											// PB 06/18/08: fixes a memory leak
-			{
-				result = [NSString stringWithString:(NSString*)uti];
-				CFRelease(uti);
-			}
-		}
-	}
-	
+    
+    CFURLRef fileURL = CFURLCreateWithFileSystemPath(kCFAllocatorDefault, (CFStringRef)anAbsolutePath, kCFURLPOSIXPathStyle, FALSE);
+    if (fileURL)
+    {
+        // get the content type (UTI) of this file
+        CFStringRef uti = NULL;
+        if (CFURLCopyResourcePropertyForKey(fileURL, kCFURLTypeIdentifierKey, &uti, NULL) && uti != NULL)
+        {
+            result = [NSString stringWithString:(NSString*)uti];
+            CFRelease(uti);
+        }
+    }
+		
 	// check extension if we can't find the actual file
 	if (nil == result)
 	{

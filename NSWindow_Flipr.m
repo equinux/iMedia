@@ -250,7 +250,7 @@
 		return;
 	}
 // For calculating the draw time...
-	AbsoluteTime startTime = UpTime();
+    NSTimeInterval startTime = [NSDate timeIntervalSinceReferenceDate];
 // time will vary from 0.0 to 1.0. 0.5 means halfway.
 	NSTimeInterval time = [animation currentValue];
 // This code was adapted from http://www.macs.hw.ac.uk/~rpointon/osx/coreimage.html by Robert Pointon.
@@ -292,7 +292,7 @@
 	NSRect bounds = [self bounds];
 	[outputCIImage drawInRect:bounds fromRect:NSMakeRect(-originalRect.origin.x,-originalRect.origin.y,bounds.size.width,bounds.size.height) operation:NSCompositeSourceOver fraction:1.0];
 // Calculate the time spent drawing
-	frameTime = UnsignedWideToUInt64(AbsoluteDeltaToNanoseconds(UpTime(),startTime))/1E9;
+	frameTime = [NSDate timeIntervalSinceReferenceDate] - startTime;
 }
 
 @end
