@@ -80,6 +80,7 @@
             result = [NSString stringWithString:(NSString*)uti];
             CFRelease(uti);
         }
+        CFRelease(fileURL);
     }
 		
 	// check extension if we can't find the actual file

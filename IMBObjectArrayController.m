@@ -252,7 +252,9 @@ const NSString* kSearchStringContext = @"searchString";
 			
 			if (object == _newObject)
 			{
-				[matchedObjects addObject:proxy];
+                if (proxy != nil) {
+                    [matchedObjects addObject:proxy];
+                }
 				_newObject = nil;
 			}
 			
@@ -285,14 +287,18 @@ const NSString* kSearchStringContext = @"searchString";
 					
 					if (foundMatch)
 					{
-						[matchedObjects addObject:proxy];
+                        if (proxy != nil) {
+                            [matchedObjects addObject:proxy];
+                        }
 						break;
 					}
 				}
 			}
 			else
 			{
-				[matchedObjects addObject:proxy];
+                if (proxy != nil) {
+                    [matchedObjects addObject:proxy];
+                }
 			}
 				
 			[pool drain];

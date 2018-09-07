@@ -383,6 +383,8 @@ static NSMutableDictionary* sRegisteredObjectViewControllerClasses = nil;
 	IMBRelease(_libraryController);
 	IMBRelease(_currentNode);
 	IMBRelease(_clickedObject);
+    IMBRelease(_objectCountFormatSingular);
+    IMBRelease(_objectCountFormatPlural);
 //	IMBRelease(_progressWindowController);
 	
 	[super dealloc];

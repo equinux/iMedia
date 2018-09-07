@@ -132,6 +132,12 @@ static NSMutableDictionary* sRegisteredNodeViewControllerClasses = nil;
     return self;
 }
 
+- (void)dealloc
+{
+    IMBRelease(_nodeIdentifier);
+    [super dealloc];
+}
+
 /** Convenience factory */
 + (instancetype)stateOfController:(IMBNodeViewController *)controller
 {
