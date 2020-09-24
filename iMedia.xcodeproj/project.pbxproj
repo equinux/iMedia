@@ -3164,7 +3164,6 @@
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks /Library/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -3207,7 +3206,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Folder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3245,7 +3243,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.iPhoto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3283,7 +3280,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Aperture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3321,7 +3317,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Lightroom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3359,7 +3354,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.FSEvents";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3471,7 +3465,6 @@
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks /Library/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -3508,7 +3501,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Folder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3540,7 +3532,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.iPhoto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3572,7 +3563,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Aperture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3604,7 +3594,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Lightroom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3636,7 +3625,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.FSEvents";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3885,7 +3873,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.iPhoto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3917,7 +3904,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.iPhoto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -3982,7 +3968,6 @@
 				INFOPLIST_FILE = "XPCKit/XPCKit/XPCKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mustacheware.XPCKit;
@@ -4052,7 +4037,6 @@
 				INFOPLIST_FILE = "XPCKit/XPCKit/XPCKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mustacheware.XPCKit;
@@ -4116,7 +4100,6 @@
 				INFOPLIST_FILE = "XPCKit/XPCKit/XPCKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mustacheware.XPCKit;
@@ -4180,7 +4163,6 @@
 				INFOPLIST_FILE = "XPCKit/XPCKit/XPCKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mustacheware.XPCKit;
@@ -4243,7 +4225,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Aperture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -4275,7 +4256,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Aperture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -4313,7 +4293,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Lightroom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -4345,7 +4324,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Lightroom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -4383,7 +4361,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.FSEvents";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -4415,7 +4392,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.FSEvents";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -4432,7 +4408,6 @@
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks /Library/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -4454,7 +4429,6 @@
 				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks /Library/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -4497,7 +4471,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Folder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
@@ -4529,7 +4502,6 @@
 				INFOPLIST_FILE = "SandBoxingKit/SBService-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../Frameworks /Library/Frameworks";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tower-one.im.edia.Folder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xpc;
