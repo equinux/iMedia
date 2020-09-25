@@ -174,7 +174,6 @@
 		86C74F5D24A37AF300315A1B /* NSDictionary+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C74EF524A373C400315A1B /* NSDictionary+XPCParse.m */; };
 		86C74F5E24A37AF300315A1B /* NSString+XPCParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C74EF024A373C400315A1B /* NSString+XPCParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C74F5F24A37AF300315A1B /* NSDate+XPCParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C74EFD24A373C500315A1B /* NSDate+XPCParse.m */; };
-		86FA5070251CF183002FC7A1 /* XPCKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 86C74F3324A379C300315A1B /* XPCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		8F47B39110C416050013ED25 /* IMBOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F47B38F10C416050013ED25 /* IMBOrderedDictionary.h */; };
 		8F47B39210C416050013ED25 /* IMBOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F47B39010C416050013ED25 /* IMBOrderedDictionary.m */; };
@@ -567,17 +566,6 @@
 				309901941663B2A3006C1212 /* net.tower-one.im.edia.Aperture.xpc in Copy XPCServices */,
 			);
 			name = "Copy XPCServices";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86FA506E251CF162002FC7A1 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				86FA5070251CF183002FC7A1 /* XPCKit.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D08E8FBA101A0F15005D8614 /* Copy Frameworks */ = {
@@ -2393,8 +2381,6 @@
 				8DC2EF520486A6940098B216 /* Resources */,
 				8DC2EF540486A6940098B216 /* Sources */,
 				8DC2EF560486A6940098B216 /* Frameworks */,
-				86FA506E251CF162002FC7A1 /* Copy Frameworks */,
-				861A3812251DCAA1004A7092 /* Add missing Frameworks link */,
 			);
 			buildRules = (
 			);
@@ -2788,24 +2774,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		861A3812251DCAA1004A7092 /* Add missing Frameworks link */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Add missing Frameworks link";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"$ACTION\" = \"build\" ]\nthen\n\tcd \"$TARGET_BUILD_DIR/iMedia.framework\"\n\tln -s Versions/A/Frameworks\nfi\n";
-		};
 		D02CD49D1224F22400C773A2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
